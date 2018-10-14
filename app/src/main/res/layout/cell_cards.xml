@@ -35,7 +35,7 @@
             android:scaleType="centerCrop"
             tools:src="@drawable/git"
             android:clickable="true"
-            android:onClick="clickNew"
+            android:onClick="selectedVideo"
             android:background="@null"/>
 
         <TextView
