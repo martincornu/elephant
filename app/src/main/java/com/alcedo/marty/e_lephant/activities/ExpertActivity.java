@@ -1,7 +1,11 @@
 package com.alcedo.marty.e_lephant.activities;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.alcedo.marty.e_lephant.R;
 
@@ -11,5 +15,12 @@ public class ExpertActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_expert);
+    }
+
+    public void selectedLive(View v)
+    {
+        Toast.makeText(this, "Live", Toast.LENGTH_LONG).show();
+        Intent vid = new Intent(ExpertActivity.this, LiveActivity.class);
+        startActivity(vid);
     }
 }
