@@ -5,6 +5,9 @@ E-lephant est une appliation de e-learning interactive qui révolutionne la forma
 ## Fiche technique
 
 Avec 6 mois supplémentaire l'application pourrait être dans l'environnement suivant :
+
+![Alt text](C:\Users\Martin\Desktop\ecosysteme.png?raw=true "Eco-système")
+
 - Heroku : pour déployer et exécuter l’application. Avantages : conteneurisation, mise à l’échelle.
 - API REST Django
 - Serveur Gunicorn/nginx
