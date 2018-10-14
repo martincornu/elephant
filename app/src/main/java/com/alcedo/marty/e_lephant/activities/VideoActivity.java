@@ -1,9 +1,12 @@
 package com.alcedo.marty.e_lephant.activities;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.MediaController;
+import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.alcedo.marty.e_lephant.R;
@@ -23,5 +26,12 @@ public class VideoActivity extends AppCompatActivity {
         MediaController mediaController = new MediaController(this);
         videoView.setMediaController(mediaController);
         mediaController.setAnchorView(videoView);
+    }
+
+    public void selectedExpert(View v)
+    {
+        Toast.makeText(this, "Profile expert", Toast.LENGTH_LONG).show();
+        Intent exp = new Intent(VideoActivity.this, ExpertActivity.class);
+        startActivity(exp);
     }
 }
