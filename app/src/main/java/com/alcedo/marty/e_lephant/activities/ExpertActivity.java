@@ -19,7 +19,7 @@ public class ExpertActivity extends AppCompatActivity {
 
     public void selectedLive(View v)
     {
-        Toast.makeText(this, "Live", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Appel de Romane", Toast.LENGTH_LONG).show();
         Intent cal = new Intent(ExpertActivity.this, CallActivity.class);
         startActivity(cal);
     }

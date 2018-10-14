@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context="com.alcedo.marty.e_lephant.activities.CallActivity">
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="209dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="28dp"
+        android:background="@null"
+        android:onClick="selectedAccept"
+        android:layout_marginTop="224dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="0dp"
@@ -16,4 +27,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/call" />
+
 </android.support.constraint.ConstraintLayout>
