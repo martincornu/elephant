@@ -6,4 +6,18 @@
     android:layout_height="match_parent"
     tools:context="com.alcedo.marty.e_lephant.activities.LiveActivity">
 
+    <!--<FrameLayout-->
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <VideoView
+            android:id="@+id/live_video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top" />
+
+    <!--</FrameLayout>-->
+
 </android.support.constraint.ConstraintLayout>
