@@ -20,7 +20,8 @@
             android:name=".activities.VideoActivity"
             android:configChanges="orientation|screenSize" />
         <activity android:name=".activities.ExpertActivity" />
-        <activity android:name=".activities.LiveActivity"></activity>
+        <activity android:name=".activities.LiveActivity" />
+        <activity android:name=".activities.CallActivity"></activity>
     </application>
 
 </manifest>
