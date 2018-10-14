@@ -17,7 +17,7 @@ public class LiveActivity extends AppCompatActivity {
         setContentView(R.layout.activity_live);
 
         VideoView videoView = findViewById(R.id.live_video_view);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.video_tuto;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.live;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
 
